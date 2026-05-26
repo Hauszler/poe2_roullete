@@ -9,9 +9,9 @@ export const classes = [
       "Smith of Kitava": "A master crafter specializing in Normal Body Armour transformation. Focuses on Fire-based damage and extreme elemental resilience by converting fire resistance to other elements."
     },
     mobalyticsUrls: {
-      "Warbringer": "https://maxroll.gg/poe2/build-guides/warbringer-ascendancy-overview",
-      "Titan": "https://maxroll.gg/poe2/build-guides/titan-ascendancy-overview",
-      "Smith of Kitava": "https://maxroll.gg/poe2/build-guides/smith-of-kitava-ascendancy-overview"
+      "Warbringer": "https://mobalytics.gg/poe-2/warbringer-builds",
+      "Titan": "https://mobalytics.gg/poe-2/titan-builds",
+      "Smith of Kitava": "https://mobalytics.gg/poe-2/smith-of-kitava-builds"
     },
     description: "A master of heavy weapons and brutal physical force.",
     image: "/images/warrior.jpg"
@@ -25,8 +25,8 @@ export const classes = [
       "Pathfinder": "An expert in poison damage and tactical resource management. Utilizes concoctions and enhances ailment potency while providing high utility and life-flask synergy."
     },
     mobalyticsUrls: {
-      "Deadeye": "https://maxroll.gg/poe2/build-guides/deadeye-ascendancy-overview",
-      "Pathfinder": "https://maxroll.gg/poe2/build-guides/pathfinder-ascendancy-overview"
+      "Deadeye": "https://mobalytics.gg/poe-2/deadeye-builds",
+      "Pathfinder": "https://mobalytics.gg/poe-2/pathfinder-builds"
     },
     description: "Quick and deadly with a bow and extreme agility.",
     image: "/images/ranger.jpg"
@@ -41,9 +41,9 @@ export const classes = [
       "Tactician": "A master of battlefield control using Banners, Ballista totems, and 'Pin' mechanics to stop enemies and provide tactical buffs to allies."
     },
     mobalyticsUrls: {
-      "Witchhunter": "https://maxroll.gg/poe2/build-guides/witchhunter-ascendancy-overview",
-      "Gemling Legionnaire": "https://maxroll.gg/poe2/build-guides/gemling-legionnaire-ascendancy-overview",
-      "Tactician": "https://maxroll.gg/poe2/build-guides/tactician-ascendancy-overview"
+      "Witchhunter": "https://mobalytics.gg/poe-2/witchhunter-builds",
+      "Gemling Legionnaire": "https://mobalytics.gg/poe-2/gemling-legionnaire-builds",
+      "Tactician": "https://mobalytics.gg/poe-2/tactician-builds"
     },
     description: "Specializes in crossbows and tactical gadgets.",
     image: "/images/mercenary.jpg"
@@ -58,9 +58,9 @@ export const classes = [
       "Lich": "A master of the necrotic arts, focusing on undeath, soul manipulation, and life-draining curses to wither away enemies."
     },
     mobalyticsUrls: {
-      "Blood Mage": "https://maxroll.gg/poe2/build-guides/blood-mage-ascendancy-overview",
-      "Infernalist": "https://maxroll.gg/poe2/build-guides/infernalist-ascendancy-overview",
-      "Lich": "https://maxroll.gg/poe2/build-guides/lich-ascendancy-overview"
+      "Blood Mage": "https://mobalytics.gg/poe-2/blood-mage-builds",
+      "Infernalist": "https://mobalytics.gg/poe-2/infernalist-builds",
+      "Lich": "https://mobalytics.gg/poe-2/lich-builds"
     },
     description: "Masters of the dark arts and summoning the undead.",
     image: "/images/witch.jpg"
@@ -75,9 +75,9 @@ export const classes = [
       "Disciple of Varashta": "Commands powerful invulnerable elemental entities called Djinns. Features a hybrid playstyle between direct casting and minion control."
     },
     mobalyticsUrls: {
-      "Stormweaver": "https://maxroll.gg/poe2/build-guides/stormweaver-ascendancy-overview",
-      "Chronomancer": "https://maxroll.gg/poe2/build-guides/chronomancer-ascendancy-overview",
-      "Disciple of Varashta": "https://maxroll.gg/poe2/build-guides/disciple-of-varashta-ascendancy-overview"
+      "Stormweaver": "https://mobalytics.gg/poe-2/stormweaver-builds",
+      "Chronomancer": "https://mobalytics.gg/poe-2/chronomancer-builds",
+      "Disciple of Varashta": "https://mobalytics.gg/poe-2/disciple-of-varashta-builds"
     },
     description: "Harnesses the pure power of the elements.",
     image: "/images/sorceress.png"
@@ -92,9 +92,9 @@ export const classes = [
       "Martial Artist": "A master of melee combat and clones. Uses 'Hollow Form' to summon astral copies and 'Way of the Stonefist' for brutal unarmed attacks."
     },
     mobalyticsUrls: {
-      "Invoker": "https://maxroll.gg/poe2/build-guides/invoker-ascendancy-overview",
-      "Acolyte of Chayula": "https://maxroll.gg/poe2/build-guides/acolyte-of-chayula-ascendancy-overview",
-      "Martial Artist": "https://maxroll.gg/poe2/build-guides/martial-artist-ascendancy-overview"
+      "Invoker": "https://mobalytics.gg/poe-2/invoker-builds",
+      "Acolyte of Chayula": "https://mobalytics.gg/poe-2/acolyte-of-chayula-builds",
+      "Martial Artist": "https://mobalytics.gg/poe-2/martial-artist-builds"
     },
     description: "Agile fighter using quarterstaffs and elemental strikes.",
     image: "/images/monk.jpg"
@@ -108,8 +108,8 @@ export const classes = [
       "Oracle": "A strategic ascendancy that manipulates fate and the passive tree. Can allocate unconnected nodes and use 'Visages' to duplicate spellcasting."
     },
     mobalyticsUrls: {
-      "Oracle": "https://maxroll.gg/poe2/build-guides/oracle-ascendancy-overview",
-      "Shaman": "https://maxroll.gg/poe2/build-guides/shaman-ascendancy-overview"
+      "Oracle": "https://mobalytics.gg/poe-2/oracle-builds",
+      "Shaman": "https://mobalytics.gg/poe-2/shaman-builds"
     },
     description: "Shape-shifter and controller of nature's wrath.",
     image: "/images/druid.png"
@@ -124,9 +124,9 @@ export const classes = [
       "Spirit Walker": "Draws power from Azmerian Animal Spirits (Stag, Owl, Bear). Can tame Unique Beast bosses as permanent companions."
     },
     mobalyticsUrls: {
-      "Amazon": "https://maxroll.gg/poe2/build-guides/amazon-ascendancy-overview",
-      "Ritualist": "https://maxroll.gg/poe2/build-guides/ritualist-ascendancy-overview",
-      "Spirit Walker": "https://maxroll.gg/poe2/build-guides/spirit-walker-ascendancy-overview"
+      "Amazon": "https://mobalytics.gg/poe-2/amazon-builds",
+      "Ritualist": "https://mobalytics.gg/poe-2/ritualist-builds",
+      "Spirit Walker": "https://mobalytics.gg/poe-2/spirit-walker-builds"
     },
     description: "Versatile hunter using spears and ancestral spirits.",
     image: "/images/huntress.png"

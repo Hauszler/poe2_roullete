@@ -91,7 +91,7 @@ const Randomizer = () => {
                     rel="noopener noreferrer"
                     className="builds-cta-btn"
                   >
-                    ⚔️ Ver Top Builds no Maxroll.gg
+                    ⚔️ Ver Top Builds no Mobalytics
                   </a>
                 )}
               </>
