@@ -1,16 +1,52 @@
-# React + Vite
+# PoE2 Build Oracle - Class Randomizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um sorteador de builds para Path of Exile 2 com visual premium e informações detalhadas das ascensões.
 
-Currently, two official plugins are available:
+## 🚀 Como Rodar o Projeto Localmente
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Siga os passos abaixo para configurar o ambiente e rodar o site no seu computador:
 
-## React Compiler
+### 1. Pré-requisitos
+Certifique-se de ter o **Node.js** (versão 18 ou superior) instalado em sua máquina. Você pode baixar em [nodejs.org](https://nodejs.org/).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Clonar o Repositório
+Abra o seu terminal e rode:
+```bash
+git clone https://github.com/Hauszler/poe2_roullete.git
+cd poe2_roullete
+```
 
-## Expanding the ESLint configuration
+### 3. Instalar Dependências
+Dentro da pasta do projeto, instale os pacotes necessários:
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 4. Rodar o Servidor de Desenvolvimento
+Inicie o projeto localmente:
+```bash
+npm run dev
+```
+O terminal exibirá um link (geralmente `http://localhost:5173`). Abra-o no seu navegador para ver o site funcionando!
+
+### 5. Gerar Build para Produção
+Se quiser gerar os arquivos otimizados para subir em um servidor:
+```bash
+npm run build
+```
+Os arquivos serão gerados na pasta `dist/`.
+
+## ✨ Funcionalidades
+- **Sorteio Aleatório**: Seleciona uma das 8 classes lançadas e sua respectiva ascensão.
+- **Informações da Wiki**: Exibe detalhes específicos de cada ascensão (ex: mecânicas de Blood Mage, Witchhunter, etc).
+- **Visual PoE2**: Estética sombria com texturas de couro, fontes góticas e cores douradas.
+- **Responsivo**: Funciona em diferentes tamanhos de tela.
+
+## 🛠️ Tecnologias Utilizadas
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Vanilla CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Google Fonts (Cinzel & Spectral)](https://fonts.google.com/)
+
+---
+Criado para facilitar a escolha de builds no Path of Exile 2!
