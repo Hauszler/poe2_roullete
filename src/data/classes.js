@@ -56,7 +56,7 @@ export const classes = [
       "Disciple of Varashta": "Commands powerful invulnerable elemental entities called Djinns. Features a hybrid playstyle between direct casting and minion control."
     },
     description: "Harnesses the pure power of the elements.",
-    image: "/images/sorceress.jpg"
+    image: "/images/sorceress.png"
   },
   {
     name: "Monk",
@@ -79,7 +79,7 @@ export const classes = [
       "Oracle": "A strategic ascendancy that manipulates fate and the passive tree. Can allocate unconnected nodes and use 'Visages' to duplicate spellcasting."
     },
     description: "Shape-shifter and controller of nature's wrath.",
-    image: "/images/druid.jpg"
+    image: "/images/druid.png"
   },
   {
     name: "Huntress",
@@ -91,7 +91,7 @@ export const classes = [
       "Spirit Walker": "Draws power from Azmerian Animal Spirits (Stag, Owl, Bear). Can tame Unique Beast bosses as permanent companions."
     },
     description: "Versatile hunter using spears and ancestral spirits.",
-    image: "/images/huntress.jpg"
+    image: "/images/huntress.png"
   }
   /* 
   Unreleased classes:

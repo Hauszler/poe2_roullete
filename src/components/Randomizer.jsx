@@ -38,30 +38,34 @@ const Randomizer = () => {
           <div className="class-display">
             {selectedClass && (
               <>
-                <div className="class-image">
-                  {selectedClass.image && !isRolling ? (
-                    <img 
-                      src={selectedClass.image} 
-                      alt={selectedClass.name} 
-                      onError={(e) => {
-                        e.target.style.display = 'none';
-                        e.target.nextSibling.style.display = 'flex';
-                      }} 
-                    />
-                  ) : null}
-                  <div className="placeholder-portrait cinzel" style={{
-                    display: selectedClass.image ? 'none' : 'flex',
-                    width: '100%',
-                    height: '100%',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    background: 'linear-gradient(135deg, #1a1a1e 0%, #0a0a0c 100%)',
-                    color: 'var(--color-gold)',
-                    fontSize: '3rem'
-                  }}>
-                    {selectedClass.name.charAt(0)}
-                  </div>
-                </div>
+            <div className={`class-image ${isRolling ? 'invisible' : ''}`}>
+              {selectedClass.image && (
+                <img 
+                  src={`${import.meta.env.BASE_URL}${selectedClass.image.startsWith('/') ? selectedClass.image.slice(1) : selectedClass.image}`} 
+                  alt={selectedClass.name} 
+                  onLoad={(e) => {
+                    e.target.style.display = 'block';
+                    if (e.target.nextSibling) e.target.nextSibling.style.display = 'none';
+                  }}
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                    if (e.target.nextSibling) e.target.nextSibling.style.display = 'flex';
+                  }} 
+                />
+              )}
+              <div className="placeholder-portrait cinzel" style={{
+                display: selectedClass.image ? 'none' : 'flex',
+                width: '100%',
+                height: '100%',
+                justifyContent: 'center',
+                alignItems: 'center',
+                background: 'linear-gradient(135deg, #1a1a1e 0%, #0a0a0c 100%)',
+                color: 'var(--color-gold)',
+                fontSize: '3rem'
+              }}>
+                {selectedClass.name.charAt(0)}
+              </div>
+            </div>
                 <h2 className="class-name">{selectedClass.name}</h2>
                 <h3 className="ascendancy-name">{selectedAscendancy}</h3>
                 <p className="ascendancy-detail cinzel" style={{
