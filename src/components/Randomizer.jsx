@@ -84,6 +84,16 @@ const Randomizer = () => {
                 <div className="attribute-tag cinzel" style={{color: '#a0a0a0', fontSize: '0.9rem'}}>
                   Primary: {selectedClass.attribute}
                 </div>
+                {selectedClass.mobalyticsUrls?.[selectedAscendancy] && (
+                  <a
+                    href={selectedClass.mobalyticsUrls[selectedAscendancy]}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="builds-cta-btn"
+                  >
+                    ⚔️ Ver Top Builds no Maxroll.gg
+                  </a>
+                )}
               </>
             )}
           </div>

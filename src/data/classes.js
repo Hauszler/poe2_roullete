@@ -8,6 +8,11 @@ export const classes = [
       "Titan": "Designed for massive high-impact hits focusing on Slam Skills and Stunning enemies. Boosts area damage and grants Aftershocks to crushing blows.",
       "Smith of Kitava": "A master crafter specializing in Normal Body Armour transformation. Focuses on Fire-based damage and extreme elemental resilience by converting fire resistance to other elements."
     },
+    mobalyticsUrls: {
+      "Warbringer": "https://maxroll.gg/poe2/build-guides/warbringer-ascendancy-overview",
+      "Titan": "https://maxroll.gg/poe2/build-guides/titan-ascendancy-overview",
+      "Smith of Kitava": "https://maxroll.gg/poe2/build-guides/smith-of-kitava-ascendancy-overview"
+    },
     description: "A master of heavy weapons and brutal physical force.",
     image: "/images/warrior.jpg"
   },
@@ -18,6 +23,10 @@ export const classes = [
     ascendancyDetails: {
       "Deadeye": "The quintessential markswoman. Focuses on precision, speed, and projectile manipulation. Features mechanics like Endless Munitions and Gathering Winds (Tailwind).",
       "Pathfinder": "An expert in poison damage and tactical resource management. Utilizes concoctions and enhances ailment potency while providing high utility and life-flask synergy."
+    },
+    mobalyticsUrls: {
+      "Deadeye": "https://maxroll.gg/poe2/build-guides/deadeye-ascendancy-overview",
+      "Pathfinder": "https://maxroll.gg/poe2/build-guides/pathfinder-ascendancy-overview"
     },
     description: "Quick and deadly with a bow and extreme agility.",
     image: "/images/ranger.jpg"
@@ -31,6 +40,11 @@ export const classes = [
       "Gemling Legionnaire": "The master of gem synergy. Embeds skill gems directly into the body to exceed normal restrictions and gain extra power from levels and quality.",
       "Tactician": "A master of battlefield control using Banners, Ballista totems, and 'Pin' mechanics to stop enemies and provide tactical buffs to allies."
     },
+    mobalyticsUrls: {
+      "Witchhunter": "https://maxroll.gg/poe2/build-guides/witchhunter-ascendancy-overview",
+      "Gemling Legionnaire": "https://maxroll.gg/poe2/build-guides/gemling-legionnaire-ascendancy-overview",
+      "Tactician": "https://maxroll.gg/poe2/build-guides/tactician-ascendancy-overview"
+    },
     description: "Specializes in crossbows and tactical gadgets.",
     image: "/images/mercenary.jpg"
   },
@@ -42,6 +56,11 @@ export const classes = [
       "Blood Mage": "Uses Life as a primary resource. Specializes in Life Remnants to recover health and deals high critical damage based on maximum life totals.",
       "Infernalist": "A fire spellcaster who replaces Mana with Infernal Flame. Can summon a Loyal Hellhound and transform into a powerful demon form.",
       "Lich": "A master of the necrotic arts, focusing on undeath, soul manipulation, and life-draining curses to wither away enemies."
+    },
+    mobalyticsUrls: {
+      "Blood Mage": "https://maxroll.gg/poe2/build-guides/blood-mage-ascendancy-overview",
+      "Infernalist": "https://maxroll.gg/poe2/build-guides/infernalist-ascendancy-overview",
+      "Lich": "https://maxroll.gg/poe2/build-guides/lich-ascendancy-overview"
     },
     description: "Masters of the dark arts and summoning the undead.",
     image: "/images/witch.jpg"
@@ -55,6 +74,11 @@ export const classes = [
       "Chronomancer": "Leverages time manipulation to control battleflow. Can reset cooldowns (Time Snap), freeze enemies (Time Freeze), and rewind status (Temporal Rift).",
       "Disciple of Varashta": "Commands powerful invulnerable elemental entities called Djinns. Features a hybrid playstyle between direct casting and minion control."
     },
+    mobalyticsUrls: {
+      "Stormweaver": "https://maxroll.gg/poe2/build-guides/stormweaver-ascendancy-overview",
+      "Chronomancer": "https://maxroll.gg/poe2/build-guides/chronomancer-ascendancy-overview",
+      "Disciple of Varashta": "https://maxroll.gg/poe2/build-guides/disciple-of-varashta-ascendancy-overview"
+    },
     description: "Harnesses the pure power of the elements.",
     image: "/images/sorceress.png"
   },
@@ -67,6 +91,11 @@ export const classes = [
       "Acolyte of Chayula": "Embraces the darkness by replacing Spirit with 'Darkness'. Utilizes chaos magic and trades resources for high resilience and damage.",
       "Martial Artist": "A master of melee combat and clones. Uses 'Hollow Form' to summon astral copies and 'Way of the Stonefist' for brutal unarmed attacks."
     },
+    mobalyticsUrls: {
+      "Invoker": "https://maxroll.gg/poe2/build-guides/invoker-ascendancy-overview",
+      "Acolyte of Chayula": "https://maxroll.gg/poe2/build-guides/acolyte-of-chayula-ascendancy-overview",
+      "Martial Artist": "https://maxroll.gg/poe2/build-guides/martial-artist-ascendancy-overview"
+    },
     description: "Agile fighter using quarterstaffs and elemental strikes.",
     image: "/images/monk.jpg"
   },
@@ -77,6 +106,10 @@ export const classes = [
     ascendancyDetails: {
       "Shaman": "A consistent powerhouse using Rage to empower both spells and attacks. Excels in hybrid combat, blending animal forms with nature magic.",
       "Oracle": "A strategic ascendancy that manipulates fate and the passive tree. Can allocate unconnected nodes and use 'Visages' to duplicate spellcasting."
+    },
+    mobalyticsUrls: {
+      "Oracle": "https://maxroll.gg/poe2/build-guides/oracle-ascendancy-overview",
+      "Shaman": "https://maxroll.gg/poe2/build-guides/shaman-ascendancy-overview"
     },
     description: "Shape-shifter and controller of nature's wrath.",
     image: "/images/druid.png"
@@ -90,38 +123,19 @@ export const classes = [
       "Ritualist": "Uses ritualistic sacrifices of life or enemies to gain temporary boons. Features unique gear scaling with extra charm and ring synergies.",
       "Spirit Walker": "Draws power from Azmerian Animal Spirits (Stag, Owl, Bear). Can tame Unique Beast bosses as permanent companions."
     },
+    mobalyticsUrls: {
+      "Amazon": "https://maxroll.gg/poe2/build-guides/amazon-ascendancy-overview",
+      "Ritualist": "https://maxroll.gg/poe2/build-guides/ritualist-ascendancy-overview",
+      "Spirit Walker": "https://maxroll.gg/poe2/build-guides/spirit-walker-ascendancy-overview"
+    },
     description: "Versatile hunter using spears and ancestral spirits.",
     image: "/images/huntress.png"
   }
   /* 
   Unreleased classes:
-  {
-    name: "Marauder",
-    attribute: "Strength",
-    ascendancies: [],
-    description: "Brutal and resilient force.",
-    image: "/images/marauder.jpg"
-  },
-  {
-    name: "Duelist",
-    attribute: "Str/Dex",
-    ascendancies: [],
-    description: "Master of blades.",
-    image: "/images/duelist.jpg"
-  },
-  {
-    name: "Templar",
-    attribute: "Str/Int",
-    ascendancies: [],
-    description: "Holy warrior.",
-    image: "/images/templar.jpg"
-  },
-  {
-    name: "Shadow",
-    attribute: "Dex/Int",
-    ascendancies: [],
-    description: "Silent killer.",
-    image: "/images/shadow.jpg"
-  }
+  { name: "Marauder", attribute: "Strength", ascendancies: [], description: "Brutal and resilient force.", image: "/images/marauder.jpg" },
+  { name: "Duelist", attribute: "Str/Dex", ascendancies: [], description: "Master of blades.", image: "/images/duelist.jpg" },
+  { name: "Templar", attribute: "Str/Int", ascendancies: [], description: "Holy warrior.", image: "/images/templar.jpg" },
+  { name: "Shadow", attribute: "Dex/Int", ascendancies: [], description: "Silent killer.", image: "/images/shadow.jpg" }
   */
 ];
