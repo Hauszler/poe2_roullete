@@ -137,5 +137,6 @@ export const classes = [
   { name: "Duelist", attribute: "Str/Dex", ascendancies: [], description: "Master of blades.", image: "/images/duelist.jpg" },
   { name: "Templar", attribute: "Str/Int", ascendancies: [], description: "Holy warrior.", image: "/images/templar.jpg" },
   { name: "Shadow", attribute: "Dex/Int", ascendancies: [], description: "Silent killer.", image: "/images/shadow.jpg" }
+   
   */
 ];
